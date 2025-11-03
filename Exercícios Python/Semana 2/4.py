@@ -1,5 +1,0 @@
-populacao = int(input('digite o numero da populacao incial: '))
-taxa = int(input('digite a taxa de crescimento anual (em valor percentual): '))
-tempo = int(input('digite o tempo (em anos): '))
-populacaoFinal = ((((populacao / 100) * taxa) * tempo) + populacao)
-print(f"o crescimento populacional durante {tempo} anos resultou em {populacaoFinal}")
